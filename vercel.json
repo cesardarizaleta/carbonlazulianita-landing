@@ -5,8 +5,8 @@
     { "src": "index.html", "use": "@vercel/static" },
     { "src": "assets/**", "use": "@vercel/static" }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
   ],
   "cleanUrls": true
 }
