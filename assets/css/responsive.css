@@ -1,0 +1,90 @@
+/* Responsive helpers & small-device tweaks
+   Added: padding, centering and breakpoint rules
+*/
+
+/* Ensure consistent container padding on all viewports */
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make images and background covers behave nicely */
+img { display: block; height: auto; max-width: 100%; }
+.bg_cover { background-position: center center; }
+
+/* Hero / slider tweaks */
+.header_slider .single_slider { min-height: 60vh; display: flex; align-items: center; }
+.slider_content { padding: 24px 0; }
+.slider_title { margin-bottom: 10px; }
+
+/* Buttons and forms on small screens */
+.main-btn { padding-left: 28px; padding-right: 28px; }
+
+/* Utility centering */
+.text-center-mobile { text-align: left; }
+
+@media (max-width: 991px) {
+  .section_title .title { font-size: 34px; }
+}
+
+@media (max-width: 767px) {
+  /* Center key content on phones */
+  .text-center-mobile { text-align: center; }
+
+  /* Reduce hero height and center its contents */
+  .header_slider .single_slider { min-height: 50vh; padding-top: 20px; padding-bottom: 20px; }
+  .slider_content { padding: 18px 8px; }
+  .slider_title { font-size: 26px; }
+  .slider_content p { font-size: 15px; line-height: 22px; }
+
+  /* Make main CTA full width to improve tap targets */
+  .main-btn { display: block; width: 100%; box-sizing: border-box; padding-left: 20px; padding-right: 20px; }
+
+  /* Navbar refinements */
+  .navbar-nav .nav-item a { padding: 12px 10px; color: #333; }
+  .navbar-brand img { height: 48px; width: auto; }
+  .header_navbar { position: relative; background: transparent; border-bottom: none; }
+  /* When sticky class is added, keep header transparent on phones */
+  .header_navbar.sticky, .sticky.header_navbar { background: transparent !important; -webkit-box-shadow: none !important; box-shadow: none !important; border-bottom: none !important; }
+  /* Ensure nav links remain readable over hero/bg images */
+  .navbar-nav .nav-item a { color: #fff; }
+
+  /* Footer subscribe layout */
+  .footer_subscribe .subscribe_form input { height: 48px; padding-right: 56px; }
+  .footer_subscribe .subscribe_form button { height: 40px; width: 40px; right: 8px; top: 6px; }
+
+  /* Ensure text blocks have breathing room */
+  .about_area, .services_area, .gallery_area, .blog_area, .contact_area { padding-left: 10px; padding-right: 10px; }
+}
+
+/* Extra overrides: force full transparency for header and collapsed menu on phones */
+@media (max-width: 767px) {
+  /* Force header and navbar transparent even if .sticky is toggled */
+  .header_navbar, .header_navbar .navbar, .navbar, .sticky {
+    background: transparent !important;
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+  }
+
+  /* Collapsed menu background (the dropdown) often defaults to white; force transparent */
+  .navbar-collapse {
+    background: transparent !important;
+    background-color: transparent !important;
+  }
+
+  /* Ensure opened collapse (Bootstrap 'show') also stays transparent */
+  .navbar-collapse.show {
+    background: transparent !important;
+  }
+
+  /* Nav links remain visible over background */
+  .navbar-nav .nav-item a { color: #fff !important; }
+
+  /* Toggler bars remain visible */
+  .navbar-toggler .toggler-icon { background-color: #fff !important; }
+}
+

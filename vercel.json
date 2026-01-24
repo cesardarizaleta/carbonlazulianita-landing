@@ -7,6 +7,14 @@
     { "src": "robots.txt", "use": "@vercel/static" },
     { "src": "sitemap.xml", "use": "@vercel/static" }
   ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [ { "type": "host", "value": "www.carbonlazulianita.com" } ],
+      "destination": "https://carbonlazulianita.com/:1",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
