@@ -316,6 +316,37 @@ p {
   }
 }
 
+/* ===== Blog: ensure posts align (equal heights) ===== */
+.blog_area .row.justify-content-center {
+  align-items: stretch;
+}
+.blog_area .col-lg-4, .blog_area .col-md-6 {
+  display: flex;
+  align-items: stretch;
+}
+/* Make the immediate child wrapper stretch and use flex column so inner content can grow */
+.blog_area .col-lg-4 > .mt-30,
+.blog_area .col-lg-4 > .mt-30.text-center,
+.blog_area .col-lg-4 > blockquote.instagram-media,
+.blog_area .col-md-6 > .mt-30,
+.blog_area .col-md-6 > blockquote.instagram-media {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  height: 100%;
+}
+/* Ensure embedded instagram blockquote fills the wrapper */
+.blog_area blockquote.instagram-media {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+/* Let the inner container expand to keep visual balance */
+.blog_area blockquote.instagram-media > div {
+  flex: 1 1 auto;
+}
+
+
 @media (max-width: 767px) {
   .navbar-collapse {
     position: absolute;
