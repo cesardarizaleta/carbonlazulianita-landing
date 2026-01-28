@@ -1,0 +1,117 @@
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6HDZMFP" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W6HDZMFP');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>Carbon La Zulianita - CarbÃ³n Vegetal Premium de Venezuela</title>
+
+    <!--====== Meta Description ======-->
+    <meta name="description"
+        content="Carbon La Zulianita: CarbÃ³n vegetal premium de Venezuela. ProducciÃ³n sostenible, distribuciÃ³n nacional. Calidad zuliana para asados, barbacoas y uso industrial.">
+
+    <!--====== Meta Keywords ======-->
+    <meta name="keywords"
+        content="carbÃ³n vegetal, carbÃ³n zuliano, carbÃ³n Venezuela, asados, barbacoa, carbÃ³n premium, producciÃ³n sostenible, distribuciÃ³n nacional">
+
+    <!--====== Author ======-->
+    <meta name="author" content="Carbon La Zulianita">
+
+    <!--====== Robots ======-->
+    <meta name="robots" content="index, follow">
+
+    <!--====== Canonical URL ======-->
+    <link rel="canonical" href="https://carbonlazulianita.com/">
+
+    <!--====== Viewport ======-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <!-- Primary favicon (JPEG as requested) -->
+    <link rel="icon" href="/assets/images/favicon.jpg" type="image/jpeg">
+    <!-- PNG variants generated from favicon.jpg for different usages -->
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="/assets/images/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <!-- Standard multi-resolution ICO for older browsers and search engines -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+
+    <!--====== Open Graph / Facebook ======-->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://carbonlazulianita.com">
+    <meta property="og:title" content="Carbon La Zulianita - CarbÃ³n Vegetal Premium de Venezuela">
+    <meta property="og:description"
+        content="El mejor carbÃ³n vegetal de calidad premium, directo de la tierra zuliana. ProducciÃ³n sostenible y distribuciÃ³n nacional en Venezuela.">
+    <meta property="og:image" content="https://carbonlazulianita.com/assets/images/logo.jpg">
+    <meta property="og:site_name" content="Carbon La Zulianita">
+    <meta property="og:locale" content="es_VE">
+
+    <!--====== Twitter Card ======-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://carbonlazulianita.com">
+    <meta name="twitter:title" content="Carbon La Zulianita - CarbÃ³n Vegetal Premium de Venezuela">
+    <meta name="twitter:description"
+        content="El mejor carbÃ³n vegetal de calidad premium, directo de la tierra zuliana. ProducciÃ³n sostenible y distribuciÃ³n nacional en Venezuela.">
+    <meta name="twitter:image" content="https://carbonlazulianita.com/assets/images/logo.jpg">
+
+    <!--====== Structured Data (JSON-LD) ======-->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Carbon La Zulianita",
+        "url": "https://carbonlazulianita.com",
+        "logo": "https://carbonlazulianita.com/assets/images/logo.jpg",
+        "description": "Empresa lÃ­der en la producciÃ³n y distribuciÃ³n de carbÃ³n vegetal de alta calidad en Venezuela. Nos dedicamos a ofrecer productos sostenibles, elaborados con tÃ©cnicas tradicionales y modernas.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Zulia",
+            "addressCountry": "VE"
+        },
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "availableLanguage": "Spanish"
+        },
+        "sameAs": [
+            "https://www.facebook.com/carbonlazulianita",
+            "https://www.instagram.com/carbonlazulianita"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Productos de CarbÃ³n Vegetal",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "CarbÃ³n Premium Bolsa 5kg",
+                        "description": "CarbÃ³n vegetal de alta calidad, perfecto para parrillas y asados familiares."
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Product",
+                        "name": "CarbÃ³n Industrial Saco 25kg",
+                        "description": "Ideal para uso en industrias y comercios. Alto poder calorÃ­fico y duraciÃ³n prolongada."
+                    }
+                }
+            ]
+        }
+    }
+    </script>
