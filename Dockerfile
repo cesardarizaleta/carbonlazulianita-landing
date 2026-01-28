@@ -1,9 +1,12 @@
 FROM nginx:alpine
 
-# Use our nginx config which listens on 8888
+# Borrar la configuración por defecto para evitar conflictos
+RUN rm /etc/nginx/conf.d/default.conf
+
+# Copiar tu config que escucha en 8888
 COPY docker/nginx.conf /etc/nginx/nginx.conf
 
-# Copy site static files
+# Copiar archivos estáticos
 COPY . /usr/share/nginx/html
 
 EXPOSE 8888
