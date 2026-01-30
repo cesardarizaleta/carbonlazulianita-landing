@@ -1,5 +1,24 @@
 DE PRIMERITO EN EL HEADER  
-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "Carbón La Zulianita",
+    "image": "https://framerusercontent.com/assets/699pVhvNvtwVdbcd7mVw5Kzus.png",
+    "description": "Encuentra el mejor carbón vegetal de alto rendimiento para tu hogar o negocio. Ofrecemos bultos de 4.5kg y sacos industriales de 12kg y 14kg con distribución nacional en Venezuela.",
+    "brand": {
+      "@type": "Brand",
+      "name": "La Zulianita"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "10.00",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "url": "https://carbonlazulianita.com/"
+    }
+  }
+  </script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNXSBNLGRK"></script>
 <script>
